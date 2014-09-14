@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DuckNoise</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link href='http://fonts.googleapis.com/css?family=Kalam:700' rel='stylesheet' type='text/css'>
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=1.0">
+		</head>
+		<body>
+			<img src="imgs/bg1.jpg" width="100%" height="100%" alt="" id="bg">
+			<div id="content">
+				<div id="navbar">
+					<p id="home-button" class="selected nav-button" goto-div="#home">Home</p>
+					<p id='about-button' class="nav-button" goto-div="#about">About</p>
+					<p id='resume-button' class="nav-button" goto-div="#resume">Resume</p>
+					<p id="projects-button" class="nav-button" goto-div="#projects">Projects</p>
+					<p id="contact-button" class="nav-button" goto-div="#contact">Contact</p>
+				</div>
+				<div id="main">
+					<div id="home">
+						<h1>DuckNoise.</h1>
+						<h3>Welcome.</h3>
+					</div>
+					
+					<div id="about" style="display:none">
+						<h1 style="margin-left:60%">About</h1>
+						<h3 style="margin-bottom:0;margin-top:0;">Why DuckNoise?</h3>
+						<p style="margin-bottom:0;margin-top:0;">DuckNoise was the 'company name' I had chosen to code all of my projects under for my first programming class in highschool and it stuck.</p>
+						<h3 style="margin-bottom:0;margin-top:0;">More About Me</h3>
+						<p style="margin-bottom:0;margin-top:0;">I started programming in the begginning of my junior year of highschool (September 2013) in the only class my school offered on the subject which was taught in C#.
+						I quickly fell in love with it and took it on my own to learn and do as much as possible.</p>
+					</div>
+					<div id="resume"  style="display:none" >
+						<div class="resume-nav">
+							<p goto-div="#languages">Languages</p>
+							<p goto-div="#internships-history">Internships/History</p>
+							<p goto-div="#hackathons">Hackathons</p>
+							<p goto-div="#other">Other</p>
+						</div>
+						<div id="languages">
+							<h2> Languages</h2>
+							<p>Although my favorite and probably most used languages so far have been Java and typescript, I have used many languages including C#, Objective-C, and PHP but I feel that one is not limited by the lagnuages he has already used. I am willing and eager to learn any language that will help get my current project accomplished! When I needed to write client-side scripts, I sat down and read the documentation for php. When I wanted my webpage to be a little more flashy, I sat down and learned JavaScript. And when a friend came to me and asked to make a game in TypeScript, I took a week to learn that langauge as well. </p>
+						</div>
+						<div id="internships-history" style="display:none;">
+							<h2>Internships/Work History</h2>
+							<p>
+							Interned at <a href="http://www.ttitel.com/" target="_blank">TTI Technologies</a> where I developed an application from start to finish. <a href="https://github.com/ducknoise/TTI-Scanner" target="_blank" >(View on GitHub - premssion was given before posting.)</a>
+							</p>
+						</div>
+						<div id="hackathons" style="display:none;">
+							<h2>Hackathons</h2>
+							<p>
+							HackBCA 2014 at Bergen County Academies - My team's entry <a href="http://hackbca2014.challengepost.com/submissions/21943-snippy">Snippy</a> won the SendGrid API prize.
+							</p>
+							<p>
+							HackRU 2014 at Rutger University in New Brunswick
+							</p>
+							<p>
+							CodeDay NY 2014
+							</p>
+						</div>
+						<div id="other" style="display:none;" >
+							<h2>Other</h2>
+							<p>
+							Programmer and communications leader for <a href="http://www.thsinventeam.com/" target="_blank">Lemelson-MIT InvenTeam</a> - group of 14 students who have been given $6,300 in order to invent a watch that will help those afflicted with early onset Alzheimer's.
+							</p>
+							<p>
+							Attending Georgia Institute of Technology (Georgia Tech) as a Computer Science Major (Class of 2018)
+							</p>
+							<p>
+							Tutor for kids 2nd-6th grade in all subjects for 3 years, 8 times a week.
+							</p>
+							<p>
+							Play Guitar
+							</p>
+							<p>
+							Member and Counselor for the Israeli-Scouts for 3 years.
+							</p>
+						</div>
+					</div>
+					<div id="projects" style="display:none" >
+						<h1>Projects</h1>
+						<p class="text-info">
+						<a href ="https://github.com/ducknoise" target="_blank">Most of my projects can be found on GitHub</a>.
+						</p>
+						<a href="https://github.com/ducknoise" title="GitHub" alt="Github" target="_blank"><img src="imgs/github.png" id="github"></a>
+					</div>
+					<div id='contact' style="display:none">
+						<p>
+						Noam Lerner
+						</p>
+						<p style="color:white">
+						<img src="imgs/gmaillogo.png" class="icon">  noaml1295@gmail.com
+						</p>
+						<p>
+						<a href="http://github.com/ducknoise" target="_blank"><img src="imgs/github.png" class="icon">  GitHub</a>
+						</p>
+						<a href="https://www.facebook.com/noaml1" target="_blank"><img src="imgs/fblogo.png" class="icon">  Facebook</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<script type="text/javascript" src="js/jquery.min.js"></script>
+			<script type="text/javascript" src="js/index.js"></script>
+		</body>
+	</html>
