@@ -1,0 +1,68 @@
+#content {
+	position:relative; 
+	z-index:1;
+}
+#bg {
+ 	top:0;
+ 	left:0;
+ 	width:100%;
+ 	height:100%;
+ 	position:absolute; 
+ 	z-index:-1;
+ }
+
+p, h1, h2,h3, h4, a{
+	font-family: 'Kalam', cursive;
+	color:white;
+}
+.highlighted{
+	background-color:#000000;
+}
+
+.selected{
+	background-color:#4B4E43;
+}
+#navbar{
+	float:top;
+	opacity:0.5;
+}
+#navbar p{
+	display:inline;
+	padding-right:1em;
+	font-size:1em;
+}
+#home{
+	position: relative;
+	float:right;
+	margin-top:20%;
+	margin-right:25%;
+}
+#about{
+	text-align: center;
+	position:relative;
+}
+.resume-nav p{
+	display:inline;
+	padding-left:0.625em;
+	padding-right: 0.625em;
+	color:#9CE4EB;
+	border:solid 0.1em #848774;
+	background-color: black;
+	text-align: center;
+}
+#github{
+	height:10em;
+	width:10em;
+}
+
+.icon{
+	height:1.25em;
+	width:1.25em;
+}
+#contact{
+	font-size:1.5em;
+	float:right;
+	position:relative;
+	margin-top: 10%;
+	margin-right:10%;
+}
